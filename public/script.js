@@ -50,7 +50,7 @@ const showClubs = async() => {
     section.append(topScorersDiv); 
 
     const img = document.createElement("img"); 
-    img.src = "http://localhost:3001/" + club.stadium; 
+    img.src = "http://localhost:3002/" + club.stadium; 
     img.classList.add("stadiumImage"); 
     console.log(img); 
     section.append(img); 
@@ -59,7 +59,7 @@ const showClubs = async() => {
 
 const getClubs = async() => {
   try {
-    return (await fetch("http://localhost:3001/api/footballclubs")).json();
+    return (await fetch("http://localhost:3002/api/footballclubs")).json();
   } catch(error) {
     console.log("Error retrieving json"); 
     return ""; 
