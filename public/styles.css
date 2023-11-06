@@ -1,0 +1,30 @@
+:root {
+  --background: #d8b6b624; 
+  /* --textcolor: #BFA181; */
+  --textcolor: rgb(162, 12, 12); 
+}
+
+body {
+  background-color: var(--background);
+  color: var(--textcolor); 
+  font-family: 'Lato', sans-serif;
+}
+
+#fc-div {
+  display: inline;
+}
+
+h1 {
+  font-size: 40pt;
+  text-decoration: underline;
+}
+
+.club h1 {
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+.stadiumImage {
+  width: 50%; 
+  height: 25%; 
+}
